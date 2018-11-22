@@ -3,8 +3,12 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    return render(request, "index.html")
 
 
 def reee(request):
     return render(request, "index.html", {"var": "var"})
+
+
+def index2(request):
+    return render(request, "index2.html")
