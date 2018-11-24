@@ -7,7 +7,7 @@
 	{% load static %}
 	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %} ">
 	<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %} ">
-	<link rel="stylesheet" href="{% static 'css/main2.css' %} ">
+	<link rel="stylesheet" href="{% static 'css/main.css' %} ">
 </head>
 <body>
 	<div class="navbar-inverse navbar-fixed-top">
@@ -36,12 +36,16 @@
 			<div class="row center">
 				<div class="col-lg-8 col-lg-offset-2">
 					<h1>C<i class="fa fa-circle"></i>UNTER</h1>
-					<h2></h2>
+					<br>
+					<br>
+					<h2 id="h2counter">00000000</h2>
+					<br>
+					<br>
 					<div id="button1">
-						<form method="post">
-							<a href="#" class="button" type="submit">CLICK</a>
-						</form>
+							<button name="ClickButton" class= "button"cd type="submit" onclick="incrementation()">CLICK</button>
 					</div>
+					<br>
+					<br>
 				</div>
 			</div>
 		</div>
@@ -92,7 +96,7 @@
 	</div> -->
 
 
-
+	<script> src="JavaScriptClicker.js"</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>

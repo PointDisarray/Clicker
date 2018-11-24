@@ -119,12 +119,19 @@ hr {
 	font-size: 25px;
 }
 
-#button1{
-	width: 400px;
-	margin: 200px auto;
+
+
+#h2counter{
+    text-align: center;
+    font-size: 4em;
+
+
 }
 
+
 .button {
+    outline:none;
+    text-decoration:none;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	padding-right: 50px;
@@ -153,5 +160,4 @@ hr {
 .button:hover {
 	background: coral;
 	color: #333;
-	transform: scale(1.1) rotate(360deg);
 }
