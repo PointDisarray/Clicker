@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Bootstrap site</title>
+	<title>Clicker</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	{% load static %}
 	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %} ">
@@ -15,14 +15,14 @@
 	<div class="navbar-inverse navbar-fixed-top">
 		<div class-="container">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<button type="submit" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" onclick="collapse()">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="#">C<i class="fa fa-circle"></i>UNTER</a>
 			</div>
-			<div class="navbar-collapse collapse">
+			<div class="navbar-collapse collapse" aria-expanded="false" id="mynavbar">
 				<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="#">Home</a></li>
 					<li><a href="css/main2.css">O nas</a></li>
@@ -39,8 +39,9 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<h1>C<i class="fa fa-circle"></i>UNTER</h1>
 					<br>
+					<h2 id="h2counter">TOTAL: 0</h2>
 					<br>
-					<h2 id="h2counter"></h2>
+					<a href="#" id="pressHref"></a>
 					<br>
 					<br>
 					<div id="button1">

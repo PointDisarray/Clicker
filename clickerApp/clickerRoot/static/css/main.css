@@ -28,6 +28,11 @@ p {
 	text-align: center;
 }
 
+#pressHref{
+    font-size: 3em;
+    text-align: center;
+}
+
 a {
 	color:  #f85c37
 }
@@ -124,13 +129,12 @@ hr {
 #h2counter{
     text-align: center;
     font-size: 4em;
-
-
 }
 
 
+
 .button {
-    outline:none;
+    outline: none;
     text-decoration:none;
 	padding-top: 100px;
 	padding-bottom: 100px;
