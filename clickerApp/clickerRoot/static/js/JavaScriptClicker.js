@@ -13,18 +13,3 @@ function incrementation() {
         }
     }
 }
-
-function collapse() {
-    if(document.getElementById("mynavbar").aria-expanded == "false") {
-        //document.getElementById("mynavbar").class="navbar-collapse collapse in";
-        //document.getElementById("mynavbar").aria-expanded="true";
-        $('#mynavbar').class="navbar-collapse collapse in";
-        $('#mynavbar').aria-expanded="true";
-    }
-    else {
-        //document.getElementById("mynavbar").class="navbar-collapse collapse";
-        //document.getElementById("mynavbar").aria-expanded="false";
-        $('#mynavbar').class="navbar-collapse collapse";
-        $('#mynavbar').aria-expanded="false";
-    }
-}
