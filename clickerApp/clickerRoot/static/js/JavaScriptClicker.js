@@ -13,3 +13,11 @@ function incrementation() {
         }
     }
 }
+
+function newUser () {
+    if (document.getElementById("button1").style.display == 'none') {
+        document.getElementById("button1").style.display == 'block'
+        document.getElementById("nickname").style.display == 'none'
+    }
+
+}
