@@ -25,6 +25,7 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
+                    <li>user: {{user.name}}</li>
 					<li class="active"><a href="https://www.jetbrains.com/pycharm/download/#section=windows">PyCharm</a></li>
 					<li><a href="https://www.djangoproject.com/">Django</a></li>
 					<li><a href="https://www.python.org/">Python</a></li>
@@ -38,13 +39,21 @@
 		<div class="container">
 			<div class="row center">
 				<div class="col-lg-8 col-lg-offset-2">
-					<div id="nickname">
-						<form action="home" method="post">
-							{% csrf_token %}
-							<input type="text" name="username" placeholder="Enter Nickname" required>
-    						<button type="submit" id="button2">Login</button>
-						</form>
+					<h1>C<i class="fa fa-circle"></i>UNTER</h1>
+					<br>
+					<h2 id="h2counter">TOTAL: {{user.counter}}</h2>
+					<br>
+					<br>
+					<div id="videoDiv" hidden>
+						<iframe width="300" height="200" src="https://www.youtube.com/embed/{{videoId}}?autoplay=1&controls=0" frameborder="0">
+
+						</iframe>
 					</div>
+					<div id="button1">
+							<button name="ClickButton" class= "button" type="submit" onclick="incrementation('{{videoId}}')">CLICK</button>
+					</div>
+					<br>
+					<br>
 				</div>
 			</div>
 		</div>
@@ -70,28 +79,5 @@
 		</div>
 		<br><br>
 	</div>
-<!-- 	<div id="dg">
-		<div class="container">
-			<div class="row centered">
-				<h4>Last Clicks</h4>
-				<br>
-				<div class="col-lg-4">
-					<div class="tilt">
-						<a href="#"><img src="" alt=""></a>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="tilt">
-						<a href="#"><img src="" alt=""></a>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="tilt">
-						<a href="#"><img src="" alt=""></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
 </body>
 </html>
