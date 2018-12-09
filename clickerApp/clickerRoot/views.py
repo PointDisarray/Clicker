@@ -16,6 +16,7 @@ def index(request):
 
 def home(request):
     username = request.POST.get('username', '')
+    user = User()
     if not username:
         user = User.objects.get(name=request.session['name'])
     else:
