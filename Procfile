@@ -1,1 +1,1 @@
-web: gunicorn clickerApp.clickerApp.wsgi --log-file -
+web: gunicorn clickerApp clickerApp.wsgi --log-file -
