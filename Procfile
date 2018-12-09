@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath clickerApp clickerApp.wsgi
+web: gunicorn --pythonpath clickerApp.wsgi
