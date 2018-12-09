@@ -130,9 +130,9 @@ USE_TZ = True
 # static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL = '/app/clickerApp/clickerRoot/static'
-STATIC_ROOT = '/app/clickerApp/clickerRoot/static'
+STATIC_URL = '/app/clickerApp/clickerRoot/static/'
+STATIC_ROOT = '/app/clickerApp/clickerRoot/static/'
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "clickerApp/clickerRoot/static/"),
-    '/app/clickerApp/clickerRoot/static',
+    os.path.join(BASE_DIR, "/app/clickerApp/clickerRoot/static/"),
+    '/app/clickerApp/clickerRoot/static/',
 )
