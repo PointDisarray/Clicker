@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e0816c-19b0-4cf7-8061-80860bc34e6a" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -96,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -144,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="75" />
     <option name="y" value="30" />
     <option name="width" value="1750" />
@@ -166,12 +166,6 @@
             <path>
               <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
               <item name="Clicker" type="462c0819:PsiDirectoryNode" />
-              <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clicker" type="462c0819:PsiDirectoryNode" />
-              <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
               <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -746,7 +740,7 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
