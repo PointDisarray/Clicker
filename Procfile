@@ -1,0 +1,1 @@
+web: gunicorn clickerApp.wsgi --log-file -
