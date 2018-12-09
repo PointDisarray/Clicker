@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath clickerApp.wsgi
+web: gunicorn --pythonpath="$PWD/clickerApp" clickerApp.wsgi
