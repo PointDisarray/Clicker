@@ -133,5 +133,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = 'clickerRoot/static/'
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "clickerRoot/static/"),
+    os.path.join(BASE_DIR, "clickerApp/clickerRoot/static/"),
 )
