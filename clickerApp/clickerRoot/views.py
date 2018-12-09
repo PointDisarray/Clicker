@@ -1,8 +1,8 @@
 from django.core import serializers
 from django.http import JsonResponse
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
-from django.db.models import Count, Sum
+from django.db.models import Sum
 from .models import User
 import requests
 
@@ -45,7 +45,9 @@ def incrementation(request):
     user = User.objects.get(name=request.POST['username'])
     user.counter = int(counter)
     user.save()
-    global_counter = User.objects.all().aggregate(Sum('counter'))
-    print("global: ", global_counter)
+    return JsonResponse({'success': 'True'})
 
+
+def global_getter(request):
+    global_counter = User.objects.all().aggregate(Sum('counter'))
     return JsonResponse(global_counter)
