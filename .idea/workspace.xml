@@ -108,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="132" column="25" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="25" />
+              <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -823,7 +823,7 @@
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="132" column="25" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="25" />
+          <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
         </state>
       </provider>
     </entry>
