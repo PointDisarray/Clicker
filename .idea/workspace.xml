@@ -2,33 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e0816c-19b0-4cf7-8061-80860bc34e6a" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/clickerApp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/css/main2.css" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/main2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/imgs/city.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/imgs/city.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/imgs/retro.png" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/imgs/retro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/imgs/retro2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/imgs/retro2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/imgs/thumb-1920-754564.png" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/imgs/thumb-1920-754564.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/js/JavaScriptClicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/js/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/main2.css" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/css/main2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/imgs/city.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/imgs/city.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/imgs/retro.png" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/imgs/retro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/imgs/retro2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/imgs/retro2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/imgs/thumb-1920-754564.png" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/imgs/thumb-1920-754564.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/js/JavaScriptClicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/js/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/static/clickerRoot/js/bootstrap.min.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,56 +93,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="134" column="20" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
+            <state relative-caret-position="240">
+              <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/main.css">
+        <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2482">
               <caret line="146" selection-start-line="146" selection-end-line="146" />
@@ -158,7 +112,7 @@
         </entry>
       </file>
       <file leaf-file-name="JavaScriptClicker.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js">
+        <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/js/JavaScriptClicker.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-111">
               <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
@@ -241,34 +195,6 @@
             </path>
             <path>
               <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clicker" type="462c0819:PsiDirectoryNode" />
-              <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
-              <item name="clickerRoot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clicker" type="462c0819:PsiDirectoryNode" />
-              <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
-              <item name="clickerRoot" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clicker" type="462c0819:PsiDirectoryNode" />
-              <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
-              <item name="clickerRoot" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clicker" type="462c0819:PsiDirectoryNode" />
-              <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
-              <item name="clickerRoot" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="clickerRoot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -291,6 +217,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IJan\PycharmProjects\Clicker\clickerApp" />
       <recent name="C:\Users\IJan\PycharmProjects\Clicker\clickerApp\clickerRoot\static\clickerRoot" />
       <recent name="C:\Users\IJan\PycharmProjects\Clicker\clickerApp\clickerRoot\templates\clickerRoot" />
       <recent name="C:\Users\admin\PycharmProjects\Clicker\clickerApp\clickerRoot" />
@@ -581,7 +508,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/main2.css">
+    <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/css/main2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
@@ -589,7 +516,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/JavaScriptClicker.js" />
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/__init__.py">
+    <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/js/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
@@ -634,14 +561,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/main.css">
+    <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js">
+    <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/js/JavaScriptClicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
@@ -665,7 +592,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/main2.css">
+    <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/css/main2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
@@ -673,7 +600,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/JavaScriptClicker.js" />
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/__init__.py">
+    <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/js/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
@@ -724,7 +651,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/main.css">
+    <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
@@ -738,7 +665,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js">
+    <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/js/JavaScriptClicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
@@ -749,7 +676,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/JavaScriptClicker.js" />
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/__init__.py">
+    <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/js/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/apps.py">
@@ -806,21 +733,21 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/main2.css">
+    <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/css/main2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2593">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="4662" column="72" selection-start-line="4662" selection-start-column="72" selection-end-line="4662" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/font-awesome.min.css">
+    <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/urls.py">
@@ -840,34 +767,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/main.css">
+    <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2482">
           <caret line="146" selection-start-line="146" selection-end-line="146" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="134" column="20" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js">
+    <entry file="file://$PROJECT_DIR$/clickerApp/static/clickerRoot/js/JavaScriptClicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-111">
           <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/views.py">
+    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-971">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -885,10 +802,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/home.html">
+    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="187">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
         </state>
       </provider>
     </entry>
