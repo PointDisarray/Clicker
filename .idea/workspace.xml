@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e0816c-19b0-4cf7-8061-80860bc34e6a" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/css/main2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/imgs/city.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/imgs/retro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/imgs/retro2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/imgs/thumb-1920-754564.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/js/JavaScriptClicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/js/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -105,8 +86,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="137" column="37" lean-forward="true" selection-start-line="137" selection-start-column="37" selection-end-line="137" selection-end-column="37" />
+            <state relative-caret-position="262">
+              <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
               <folding>
                 <element signature="e#311#320#0" expanded="true" />
               </folding>
@@ -216,6 +197,27 @@
               <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
               <item name="Clicker" type="462c0819:PsiDirectoryNode" />
               <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clicker" type="462c0819:PsiDirectoryNode" />
+              <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="clickerRoot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clicker" type="462c0819:PsiDirectoryNode" />
+              <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="clickerRoot" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clicker" type="462c0819:PsiDirectoryNode" />
+              <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="clickerRoot" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="clickerRoot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
@@ -838,8 +840,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="137" column="37" lean-forward="true" selection-start-line="137" selection-start-column="37" selection-end-line="137" selection-end-column="37" />
+        <state relative-caret-position="262">
+          <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
           <folding>
             <element signature="e#311#320#0" expanded="true" />
           </folding>
