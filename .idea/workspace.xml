@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e0816c-19b0-4cf7-8061-80860bc34e6a" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,50 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
-              <folding>
-                <element signature="e#311#320#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaScriptClicker.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="306">
+              <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -165,18 +129,18 @@
         <option value="$PROJECT_DIR$/clickerApp/clickerRoot/templates/home.html" />
         <option value="$PROJECT_DIR$/clickerApp/clickerRoot/templates/index.html" />
         <option value="$PROJECT_DIR$/clickerApp/clickerRoot/views.py" />
-        <option value="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/home.html" />
-        <option value="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index2.html" />
-        <option value="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/clickerApp/clickerApp/wsgi.py" />
         <option value="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" />
+        <option value="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index2.html" />
+        <option value="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/home.html" />
+        <option value="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="6" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="35" />
+    <option name="y" value="128" />
     <option name="width" value="1397" />
     <option name="height" value="830" />
   </component>
@@ -209,15 +173,7 @@
               <item name="Clicker" type="462c0819:PsiDirectoryNode" />
               <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
               <item name="clickerRoot" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clicker" type="462c0819:PsiDirectoryNode" />
-              <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
-              <item name="clickerRoot" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="clickerRoot" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
@@ -456,10 +412,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="6" width="1397" height="830" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20456217" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17617238" />
       <window_info anchor="bottom" id="TODO" order="18" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50506973" side_tool="true" weight="0.328877" />
@@ -467,7 +423,7 @@
       <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.4949303" weight="0.32803467" />
       <window_info anchor="bottom" id="Python Console" order="3" weight="0.328877" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4904943" visible="true" weight="0.35549134" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4904943" visible="true" weight="0.328877" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -778,27 +734,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django_heroku/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -831,20 +766,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index.html">
+    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="257">
+          <caret line="71" column="44" lean-forward="true" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="74" column="114" selection-start-line="74" selection-start-column="114" selection-end-line="74" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
+        <state relative-caret-position="284">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
           <folding>
             <element signature="e#311#320#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
         </state>
       </provider>
     </entry>
