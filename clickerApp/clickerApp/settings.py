@@ -75,12 +75,20 @@ WSGI_APPLICATION = 'clickerApp.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'Clicker',
+    #     'USER': 'postgres',
+    #     'PASSWORD': 'a',
+    #     'HOST': 'localhost',
+    #     'PORT': '5432',
+    # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Clicker',
-        'USER': 'postgres',
-        'PASSWORD': 'a',
-        'HOST': 'localhost',
+        'NAME': 'dafcsdv65mp6po',
+        'USER': 'njowfldzoxtbpk',
+        'PASSWORD': '8b7103b1547bd1bd6073a4f055b58380e1e9ce9968585a451eeddc3860220940',
+        'HOST': 'ec2-23-21-65-173.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
