@@ -18,7 +18,13 @@ body {
 }
 
 #button2 {
-    background-color: #D17DB8;
+    background-color: #101010;
+    border:none;
+    color:gray;
+}
+#button2:hover {
+    background-color: #ff7878;
+    color: white;
 }
 
 h1,h2,h3,h4,h5,h6 {

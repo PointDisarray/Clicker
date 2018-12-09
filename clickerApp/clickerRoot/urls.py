@@ -1,9 +1,10 @@
 from django.urls import path
 
-from .views import index, index2, home
+from .views import index, index2, home, incrementation
 
 urlpatterns = [
-    path('index', index, name='index'),
-    path('index2', index2, name="index2"),
-    path('home', home, name="home"),
+    path('welcome', index, name='index'),
+    path('about', index2, name="index2"),
+    path('', home, name="home"),
+    path('incrementation', incrementation, name="incrementation"),
 ]
