@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1e0816c-19b0-4cf7-8061-80860bc34e6a" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/css/main2.css" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/css/main2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/imgs/city.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/imgs/city.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/imgs/retro.png" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/imgs/retro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/imgs/retro2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/imgs/retro2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/imgs/thumb-1920-754564.png" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/imgs/thumb-1920-754564.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/js/JavaScriptClicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/js/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/static/clickerRoot/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/bootstrap.min.js" afterDir="false" />
-    </list>
+    <list default="true" id="b1e0816c-19b0-4cf7-8061-80860bc34e6a" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,8 +93,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+            <state relative-caret-position="206">
+              <caret line="132" column="14" lean-forward="true" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -437,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544381576149</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1544388853089</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1544388853089</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView">
@@ -450,7 +432,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17617238" />
@@ -735,9 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -834,10 +813,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+        <state relative-caret-position="206">
+          <caret line="132" column="14" lean-forward="true" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
         </state>
       </provider>
     </entry>
