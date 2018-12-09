@@ -25,7 +25,7 @@ SECRET_KEY = 'jrr%8%ftptc3m%p1qs8v_za6ny=)@z-r3bo#-2+#%hwt2h9kt_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangoclickers.herokuapp.com']
+ALLOWED_HOSTS = ['djangoclickers.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -130,8 +130,8 @@ USE_TZ = True
 # static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL = '/app/clickerApp/clickerRoot/static/'
-STATIC_ROOT = '/app/clickerApp/clickerRoot/static/'
+STATIC_URL = '/static/'
+STATIC_ROOT = 'clickerApp/clickerRoot/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "/app/clickerApp/clickerRoot/static/"),
     '/app/clickerApp/clickerRoot/static/',
