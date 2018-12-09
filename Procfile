@@ -1,1 +1,1 @@
-web: python clickerApp/manage.py runserver 127.0.0.1:5000
+web: gunicorn clickerApp.wsgi --log-file -
