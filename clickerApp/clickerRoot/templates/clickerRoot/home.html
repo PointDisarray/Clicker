@@ -5,12 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Counter</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	{% load staticfiles %}
-	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %} ">
-	<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %} ">
-	<link rel="stylesheet" href="{% static 'css/main.css' %} ">
-	<script src="{% static 'js/bootstrap.min.js' %}"></script>
-	<script src="{% static 'js/JavaScriptClicker.js' %}"></script>
+	{% load static %}
+	<link rel="stylesheet" href="{% static 'clickerRoot/css/bootstrap.css' %} ">
+	<link rel="stylesheet" href="{% static 'clickerRoot/css/font-awesome.min.css' %} ">
+	<link rel="stylesheet" href="{% static 'clickerRoot/css/main.css' %} ">
+	<script src="{% static 'clickerRoot/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'clickerRoot/js/JavaScriptClicker.js' %}"></script>
 </head>
 <body onload="onLoader({{user.counter}})">
 	<div class="navbar-inverse navbar-fixed-top">

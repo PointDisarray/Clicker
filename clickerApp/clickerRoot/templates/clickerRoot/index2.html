@@ -6,11 +6,10 @@
 	<title>Counter</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	{% load static %}
-	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %} ">
-	<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %} ">
-	<link rel="stylesheet" href="{% static 'css/main.css' %} ">
-	<script src="{% static 'js/bootstrap.min.js' %}"></script>
-	<script src="{% static 'js/JavaScriptClicker.js' %}"></script>
+	<link rel="stylesheet" href="{% static 'clickerRoot/css/bootstrap.css' %} ">
+	<link rel="stylesheet" href="{% static 'clickerRoot/css/font-awesome.min.css' %} ">
+	<link rel="stylesheet" href="{% static 'clickerRoot/css/main2.css' %} ">
+	<script src="{% static 'clickerRoot/js/bootstrap.min.js' %}"></script>
 </head>
 <body>
 	<div class="navbar-inverse navbar-fixed-top">
@@ -21,7 +20,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index">C<i class="fa fa-circle"></i>UNTER</a>
+				<a class="navbar-brand" href="welcome">C<i class="fa fa-circle"></i>UNTER</a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
@@ -38,12 +37,23 @@
 		<div class="container">
 			<div class="row center">
 				<div class="col-lg-8 col-lg-offset-2">
-					<div id="nickname">
-						<form action="/" method="post">
-							{% csrf_token %}
-							<input type="text" name="username" placeholder="Enter Nickname" required>
-    						<button type="submit" id="button2">Login</button>
-						</form>
+					<h1>C<i class="fa fa-circle"></i>UNTER</h1>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<div id="contacts">
+						<header><br>CONTACTS</header>
+						Yurii Lapenchuk              ID-1 VII: <br>
+						+48 800 000 0000<br>
+						+48 777 777 1234<br>
+						name@mail.com<br>
+						Ivan Havryshchuk             ID-1 VII:<br>
+						+48 800 000 0000<br>
+						+48 777 777 1234<br>
+						name@mail.com<br>
+						<br>
 					</div>
 				</div>
 			</div>

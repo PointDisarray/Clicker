@@ -11,7 +11,7 @@ URL_YOUTUBE = "https://www.googleapis.com/youtube/v3/search?part=snippet&order=v
 
 
 def index(request):
-    return render(request, "index.html")
+    return render(request, "clickerRoot/index.html")
 
 
 def home(request):
@@ -33,11 +33,11 @@ def home(request):
     resp = requests.get(URL_YOUTUBE)
     video_id = resp.json()['items'][0]['id']['videoId']
 
-    return render(request, "home.html", {'user': user, 'videoId': video_id, 'global_counter': global_counter['counter__sum']})
+    return render(request, "clickerRoot/home.html", {'user': user, 'videoId': video_id, 'global_counter': global_counter['counter__sum']})
 
 
 def index2(request):
-    return render(request, "index2.html")
+    return render(request, "clickerRoot/index2.html")
 
 
 @csrf_exempt
