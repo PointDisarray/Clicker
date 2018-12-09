@@ -20,7 +20,7 @@ def home(request):
         user = User.objects.get(name=request.session['name'])
     else:
         request.session['name'] = request.POST['username']
-        user = User.objects.get(name=request.POST['username'])
+        # user = User.objects.get(name=request.POST['username'])
 
     if not user:
         user = User()
