@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e0816c-19b0-4cf7-8061-80860bc34e6a" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,7 +74,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -104,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
+              <caret line="132" column="69" selection-start-line="132" selection-start-column="69" selection-end-line="132" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -154,8 +154,8 @@
         <option value="$PROJECT_DIR$/Pipfile" />
         <option value="$PROJECT_DIR$/clickerApp/clickerRoot/views.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
-        <option value="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" />
         <option value="$PROJECT_DIR$/clickerApp/clickerRoot/templates/home.html" />
+        <option value="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" />
       </list>
     </option>
   </component>
@@ -796,10 +796,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
+    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -820,10 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="240">
+          <caret line="132" column="69" selection-start-line="132" selection-start-column="69" selection-end-line="132" selection-end-column="69" />
         </state>
       </provider>
     </entry>
