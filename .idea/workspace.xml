@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e0816c-19b0-4cf7-8061-80860bc34e6a" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/src/socket_server_side.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/src/socket_server_side.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/src/socket_server_side.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -113,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/src/socket_server_side.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -464,14 +459,14 @@
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.30861852" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.30861852" />
       <window_info anchor="bottom" id="TODO" order="17" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5095836" side_tool="true" weight="0.28936172" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49966952" weight="0.32907802" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.4990086" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="13" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.49041638" visible="true" weight="0.28877005" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49041638" visible="true" weight="0.28877005" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="14" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -741,9 +736,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/requirements.txt" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -816,10 +808,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/src/socket_server_side.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
