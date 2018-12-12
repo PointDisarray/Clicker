@@ -39,10 +39,27 @@ function refresh() {
  });
 };
 
+function send_ready() {
+  $.ajax({
+  url: 'init_socket',
+  success: function(data) {
+    console.log("socket start: " + data['socket start']);
+  }
+ });
+};
+
 
 $(document).ready(function ($) {
-  refresh();
-  var int = setInterval("refresh()", 3000);
+//  refresh();
+//  var int = setInterval("refresh()", 3000);
+
+var connection = new WebSocket('ws://djangoclickers.herokuapp.com:9005');
+
+send_ready();
+
+connection.onmessage = function (e) {
+  console.log('Server: ' + e.data);
+};
 });
 
 function newUser () {
