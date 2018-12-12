@@ -7,7 +7,7 @@ from ..models import User
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Bind the socket to the port
-server_address = ('https://djangoclickers.herokuapp.com', 9005)
+server_address = ('localhost', 9005)
 print('starting up on {} port {}'.format(*server_address))
 sock.bind(server_address)
 
@@ -24,13 +24,13 @@ def run():
             print('connection from', client_address)
 
             # Receive the data in small chunks and retransmit it
-            while True:
+            # while True:
                 # data = connection.recv(16)
                 # print('received {!r}'.format(data))
                 # if data:
-                print('sending data back to the client')
-                global_counter = User.objects.all().aggregate(Sum('counter'))['counter__sum']
-                connection.sendall(bytes(global_counter))
+            print('sending data back to the client')
+            global_counter = User.objects.all().aggregate(Sum('counter'))['counter__sum']
+            connection.sendall(bytes(global_counter))
             # else:
             #     print('no data from', client_address)
             #     break

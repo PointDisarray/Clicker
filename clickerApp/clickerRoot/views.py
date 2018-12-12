@@ -4,7 +4,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.db.models import Sum
 from .models import User
 import requests
-from .src import socket_server_side
+# from .src import socket_server_side
 
 YOUTUBE_KEY = 'AIzaSyBkrqNMeyqNtray64ogoHuIuBzlG5WTJKw'
 URL_YOUTUBE = "https://www.googleapis.com/youtube/v3/search?part=snippet&order=viewCount&key={}".format(YOUTUBE_KEY)
@@ -39,9 +39,9 @@ def index2(request):
     return render(request, "clickerRoot/index2.html")
 
 
-def init_socket(request):
-    socket_server_side.run()
-    return JsonResponse({'socket start': 'True'})
+# def init_socket(request):
+#     socket_server_side.run()
+#     return JsonResponse({'socket start': 'True'})
 
 
 @csrf_exempt

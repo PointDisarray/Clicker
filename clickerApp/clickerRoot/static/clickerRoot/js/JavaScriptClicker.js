@@ -50,16 +50,16 @@ function send_ready() {
 
 
 $(document).ready(function ($) {
-//  refresh();
-//  var int = setInterval("refresh()", 3000);
+  refresh();
+  var int = setInterval("refresh()", 3000);
 
-var connection = new WebSocket('wss://djangoclickers.herokuapp.com:9005');
-
-send_ready();
-
-connection.onmessage = function (e) {
-  console.log('Server: ' + e.data);
-};
+//var connection = new WebSocket('ws://localhost:9005');
+//
+//send_ready();
+//
+//connection.onmessage = function (e) {
+//  console.log('Server: ' + e.data);
+//};
 });
 
 function newUser () {

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e0816c-19b0-4cf7-8061-80860bc34e6a" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'">
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/src/socket_server_side.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/src/socket_server_side.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clickerApp/clickerRoot/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/clickerApp/clickerRoot/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,11 +86,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaScriptClicker.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JavaScriptClicker.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+            <state relative-caret-position="293">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,34 +119,10 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="93">
+              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="43" selection-end-column="18" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="socket_server_side.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/src/socket_server_side.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,14 +171,14 @@
         <option value="$PROJECT_DIR$/clickerApp/clickerRoot/templates/index.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/clickerApp/clickerApp/wsgi.py" />
-        <option value="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" />
         <option value="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index2.html" />
         <option value="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/home.html" />
         <option value="$PROJECT_DIR$/clickerApp/clickerRoot/templates/clickerRoot/index.html" />
-        <option value="$PROJECT_DIR$/clickerApp/clickerRoot/urls.py" />
         <option value="$PROJECT_DIR$/clickerApp/clickerRoot/src/socket_server_side.py" />
-        <option value="$PROJECT_DIR$/clickerApp/clickerRoot/views.py" />
         <option value="$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js" />
+        <option value="$PROJECT_DIR$/clickerApp/clickerApp/settings.py" />
+        <option value="$PROJECT_DIR$/clickerApp/clickerRoot/views.py" />
+        <option value="$PROJECT_DIR$/clickerApp/clickerRoot/urls.py" />
       </list>
     </option>
   </component>
@@ -206,6 +205,12 @@
             <path>
               <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
               <item name="Clicker" type="462c0819:PsiDirectoryNode" />
+              <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Clicker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clicker" type="462c0819:PsiDirectoryNode" />
+              <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
               <item name="clickerApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -460,14 +465,14 @@
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.30861852" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.30861852" />
       <window_info anchor="bottom" id="TODO" order="17" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5095836" side_tool="true" weight="0.28936172" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49966952" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49966952" weight="0.328877" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.4990086" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="13" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49041638" visible="true" weight="0.28877005" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.49041638" visible="true" weight="0.28877005" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="14" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -758,13 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/socketserver.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -791,38 +789,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/src/socket_server_side.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/urls.py">
+    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="293">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clickerApp/clickerApp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="93">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="43" selection-end-column="18" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/static/clickerRoot/js/JavaScriptClicker.js">
+    <entry file="file://$PROJECT_DIR$/clickerApp/clickerRoot/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        <state relative-caret-position="34">
+          <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
