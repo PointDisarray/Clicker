@@ -43,6 +43,7 @@ def init_socket(request):
     socket_server_side.run()
     return JsonResponse({'socket start': 'True'})
 
+
 @csrf_exempt
 def incrementation(request):
     counter = request.POST["clickerNumber"]

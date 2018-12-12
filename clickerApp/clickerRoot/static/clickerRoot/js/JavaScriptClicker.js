@@ -53,7 +53,7 @@ $(document).ready(function ($) {
 //  refresh();
 //  var int = setInterval("refresh()", 3000);
 
-var connection = new WebSocket('ws://djangoclickers.herokuapp.com:9005');
+var connection = new WebSocket('wss://djangoclickers.herokuapp.com:9005');
 
 send_ready();
 
