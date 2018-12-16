@@ -24,8 +24,8 @@ SECRET_KEY = 'jrr%8%ftptc3m%p1qs8v_za6ny=)@z-r3bo#-2+#%hwt2h9kt_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangoclickers.herokuapp.com', 'localhost']
-
+# ALLOWED_HOSTS = ['djangoclickers.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
