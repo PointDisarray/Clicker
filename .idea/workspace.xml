@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e0816c-19b0-4cf7-8061-80860bc34e6a" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/redis_server/EventLog.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/redis_server/Redis on Windows Release Notes.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/redis_server/Redis on Windows.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/redis_server/Windows Service Documentation.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/redis_server/redis-benchmark.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/redis_server/redis-benchmark.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/redis_server/redis-check-aof.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/redis_server/redis-check-aof.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/redis_server/redis-cli.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/redis_server/redis-cli.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/redis_server/redis-server.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/redis_server/redis-server.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/redis_server/redis.windows-service.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerApp/redis_server/redis.windows.conf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -96,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -828,7 +842,7 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
         </state>
       </provider>
     </entry>
