@@ -15,6 +15,7 @@ class GlobalCounterConsumer(AsyncConsumer):
         })
 
         self.chat_room = "123"
+
         print("add to group")
         await self.channel_layer.group_add(
             self.chat_room,
@@ -51,7 +52,6 @@ class GlobalCounterConsumer(AsyncConsumer):
         user = User.parse_string_to_user(user)
         user.counter += 1
         connection.cursor().execute("select public.incrementor_func('{}',{})".format(user.pk, user.counter))
-        user.counter += 1
 
 
     @database_sync_to_async

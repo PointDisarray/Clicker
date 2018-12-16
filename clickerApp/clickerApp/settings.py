@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
-import django_heroku
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -24,7 +23,7 @@ SECRET_KEY = 'jrr%8%ftptc3m%p1qs8v_za6ny=)@z-r3bo#-2+#%hwt2h9kt_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangoclickers.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -149,17 +148,15 @@ STATICFILES_DIRS = (
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-redis_host = os.environ.get('REDIS_HOST', 'henkok.pythonanywhere.com')
+redis_host = os.environ.get('REDIS_HOST', 'localhost')
 
 CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
             "hosts": [(redis_host, 6379)],
-            "hosts": [os.environ.get('REDIS_URL', 'redis://henkok.pythonanywhere.com:6379')]
+            # "hosts": [os.environ.get('REDIS_URL', 'redis://henkok.pythonanywhere.com:6379')]
         },
 
     },
 }
-
-# django_heroku.settings(locals())
