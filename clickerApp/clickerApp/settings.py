@@ -156,7 +156,7 @@ CHANNEL_LAYERS = {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
             "hosts": [(redis_host, 6379)],
-            "hosts": [os.environ.get('REDIS_URL', 'redis://localhost:6379')]
+            "hosts": [os.environ.get('REDIS_URL', 'redis://henkok.pythonanywhere.com:6379')]
         },
 
     },
