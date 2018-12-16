@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'clickerRoot',
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -70,6 +71,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'clickerApp.wsgi.application'
 
+ASGI_APPLICATION = 'clickerApp.routing.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
@@ -83,12 +85,20 @@ DATABASES = {
     #     'HOST': 'localhost',
     #     'PORT': '5432',
     # }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'dafcsdv65mp6po',
+    #     'USER': 'njowfldzoxtbpk',
+    #     'PASSWORD': '8b7103b1547bd1bd6073a4f055b58380e1e9ce9968585a451eeddc3860220940',
+    #     'HOST': 'ec2-23-21-65-173.compute-1.amazonaws.com',
+    #     'PORT': '5432',
+    # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dafcsdv65mp6po',
-        'USER': 'njowfldzoxtbpk',
-        'PASSWORD': '8b7103b1547bd1bd6073a4f055b58380e1e9ce9968585a451eeddc3860220940',
-        'HOST': 'ec2-23-21-65-173.compute-1.amazonaws.com',
+        'NAME': 'stnceitg',
+        'USER': 'stnceitg',
+        'PASSWORD': 'Tildd9jw761NQ58ASr06IJgue6M-n0uO',
+        'HOST': 'dumbo.db.elephantsql.com',
         'PORT': '5432',
     }
 }
@@ -139,5 +149,18 @@ STATICFILES_DIRS = (
 )
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+redis_host = os.environ.get('REDIS_HOST', 'localhost')
+
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [(redis_host, 6379)],
+            "hosts": [os.environ.get('REDIS_URL', 'redis://localhost:6379')]
+        },
+
+    },
+}
 
 # django_heroku.settings(locals())
