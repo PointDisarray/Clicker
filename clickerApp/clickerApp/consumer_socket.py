@@ -29,7 +29,7 @@ class GlobalCounterConsumer(AsyncConsumer):
         context = json.loads(event.get('text'))
         user = context.get('user')
         count = context.get('counter')
-        await self.change_count(json.loads(user))
+        await self.change_count(json.loads(user), count)
         global_c = context.get('global_count')
 
         await self.channel_layer.group_send(
@@ -48,9 +48,9 @@ class GlobalCounterConsumer(AsyncConsumer):
         })
 
     @database_sync_to_async
-    def change_count(self, user):
+    def change_count(self, user, count):
         user = User.parse_string_to_user(user)
-        user.counter += 1
+        user.counter = count
         connection.cursor().execute("select public.incrementor_func('{}',{})".format(user.pk, user.counter))
 
 
