@@ -1,74 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Counter</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	{% load static %}
-	<link rel="stylesheet" href="{% static 'clickerRoot/css/bootstrap.css' %} ">
-	<link rel="stylesheet" href="{% static 'clickerRoot/css/font-awesome.min.css' %} ">
-	<link rel="stylesheet" href="{% static 'clickerRoot/css/main.css' %} ">
-	<script src="{% static 'clickerRoot/js/bootstrap.min.js' %}"></script>
-	<script src="{% static 'clickerRoot/js/JavaScriptClicker.js' %}"></script>
-</head>
-<body>
-	<div class="navbar-inverse navbar-fixed-top">
-		<div class-="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="welcome">C<i class="fa fa-circle"></i>UNTER</a>
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="https://www.jetbrains.com/pycharm/download/#section=windows">PyCharm</a></li>
-					<li><a href="https://www.djangoproject.com/">Django</a></li>
-					<li><a href="https://www.python.org/">Python</a></li>
-					<li><a href="https://getbootstrap.com/">Bootstrap</a></li>
-					<li><a href="about"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+{% extends 'clickerRoot/base.html' %}
+
+
+{% block content %}
+
 	<div id="headerwrap">
 		<div class="container">
 			<div class="row center">
 				<div class="col-lg-8 col-lg-offset-2">
+					<br>
 					<div id="nickname">
 						<form action="/" method="post">
+							<h1>Sign In</h1>
+							<br>
 							{% csrf_token %}
-							<input type="text" name="username" placeholder="Enter Nickname" required>
-    						<button type="submit" id="button2">Login</button>
+							<input id="enterNickname" type="text" name="username" placeholder="Enter Nickname" required><br/>
+    						<button type="submit" id="button2">Confirm</button>
 						</form>
+						<br>
+						<br>
+						<br>
+						<br>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container w">
-		<div class="row centered">
-			<br><br>
-			<div class="col-lg-4">
-				<i class="fa fa-heart"></i>
-				<h4>Koncepcja</h4>
-				<p>Aplikacja stworzon, żeby klikać. Nic więcej. </p>
-			</div>
-			<div class="col-lg-4">
-				<i class="fa fa-laptop"></i>
-				<h4>Wykorzystywane technologie</h4>
-				<p>Aplikacja była zrobiona za pomocą Bootstrap, HTML, CSS, Python z Django Framework, Javascript. </p>
-			</div>
-			<div class="col-lg-4">
-				<i class="fa fa-trophy"></i>
-				<h4>Kliknięcia</h4>
-				<p>Trzeba kliknąć 1 000 000 razy, żeby zobaczyć coś ciekawe. </p>
-			</div>
-		</div>
-		<br><br>
-	</div>
-</body>
-</html>
+
+{% endblock %}

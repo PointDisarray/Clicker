@@ -49,6 +49,10 @@ function newUser () {
         $("#nickname").hide();
 }
 
+/*function hideCollapse() {
+    $('.navbar').hideCollapse;
+}*/
+
 function onLoader(counter){
     clickerNumber = counter;
 }
