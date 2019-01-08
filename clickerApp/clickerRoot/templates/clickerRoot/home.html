@@ -38,25 +38,20 @@
 
 	<div id="headerwrap" >
 		<div id="userCounterInfo">
-		<div class="container">
-			<div class="row center">
-				<br>
-				<div class="col-lg-6 col-md-6 Gcount">Global count: {{global_counter}}</div>
-				<div class="col-lg-6 col-md-6 ">Username: {{user_c.name}}</div>
-			</div>
-		</div>
-	</div>
+		    <div class="container">
+                <br>
+			    <div class="row center">
+				    <div class="col-lg-6 col-md-6 Gcount">Global count: {{global_counter}}</div>
+				    <div class="col-lg-6 col-md-6 ">Username: {{user_c.name}}</div>
+			    </div>
+		    </div>
+        </div>
 		<div class="container">
 			<div class="row center">
 				<div class="col-lg-8 col-lg-offset-2">
 					<h1>C<i class="fa fa-circle"></i>UNTER</h1>
 					<h2 id="h2counter">total: {{user_c.counter}}</h2>
-					<br>
-					<div id="videoDiv" hidden>
-						<iframe width="300" height="200" src="https://www.youtube.com/embed/{{videoId}}?autoplay=1&controls=0" frameborder="0">
-						</iframe>
-					</div>
-					<div id="button1">
+					<div style="margin-top:40px;">
 						<form action="" id="count_form" method="post">
 							<input type="hidden" id="usercounter" value="{{user_c.counter}}">
 							<input type="hidden" id="username" value="{{user_c.name}}">
@@ -65,8 +60,6 @@
 							<input type="submit" class= "button" value="CLICK">
 						</form>
 					</div>
-					<br>
-					<br>
 				</div>
 			</div>
 		</div>
