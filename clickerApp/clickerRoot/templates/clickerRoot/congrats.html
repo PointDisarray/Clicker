@@ -1,0 +1,16 @@
+{% extends 'clickerRoot/base.html' %}
+
+{% block content %}
+ <div id="headerwrap" >
+		<div class="container-fluid">
+			<div class="row center">
+				<div class="col-lg-8 col-lg-offset-2" style="margin-top:80px;">
+					<div id="videoDiv">
+						<iframe src="https://www.youtube.com/embed/{{videoId}}?autoplay=1&controls=0" frameborder="0">
+						</iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+ </div>
+{% endblock %}

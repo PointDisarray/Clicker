@@ -36,6 +36,9 @@ def home(request):
 def index2(request):
     return render(request, "clickerRoot/index2.html")
 
+def congrats(request):
+    return render(request, "clickerRoot/congrats.html")
+
 
 # def init_socket(request):
 #     socket_server_side.run()
