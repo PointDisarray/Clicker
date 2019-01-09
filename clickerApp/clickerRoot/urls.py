@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import index, index2, home, easySearch, videoSearchTag
+from .views import index, index2, home, easySearch, videoSearchTag, logout
 
 urlpatterns = [
     path('welcome', index, name='index'),
@@ -8,4 +8,5 @@ urlpatterns = [
     path('', home, name="home"),
     path('easySearch', easySearch, name="easySearch"),
     path('videoSearch', videoSearchTag, name="videoSearchTag"),
+    path('logout', logout, name="logout"),
 ]

@@ -21,12 +21,18 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/">C<i class="fa fa-circle"></i>UNTER</a>
+				{% if request.path == "/welcome" or request.path == "/logout" %}
+				        <a class="navbar-brand">C<i class="fa fa-circle"></i>UNTER</a>
+				{% elif request.path == "/" %}
+						<a class="navbar-brand" href="/">H<i class="fa fa-circle"></i>ME</a>
+				{% else %}
+				        <a class="navbar-brand" href="/">C<i class="fa fa-circle"></i>UNTER</a>
+				{% endif %}
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
 					{% if request.path == "/" %}
-						<li class="active"><a href="welcome">Logout</a></li>
+						<li class="active"><a href="logout">Logout</a></li>
 						<li><a href="easySearch">Easy search</a></li>
 					{% else %}
 						<li class="active"><a href="easySearch">Easy search</a></li>

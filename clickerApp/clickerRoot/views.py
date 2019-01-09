@@ -14,18 +14,30 @@ def index(request):
     return render(request, "clickerRoot/index.html")
 
 
+def logout(request):
+    session = request.session.get('name', 'none')
+    if session != 'none':
+        request.session.pop('name')
+
+    return render(request, "clickerRoot/index.html")
+
+
 def home(request):
     username = request.POST.get('username', '')
 
     if not username:
-        user = User.objects.get(name=request.session['name'])
+        session = request.session.get('name', 'none')
+        if session == 'none':
+            return render(request, "clickerRoot/index.html")
+
+        user = User.objects.get(name=session)
     else:
-        request.session['name'] = request.POST['username']
-        user = User.objects.filter(name=request.POST['username']).first()
+        request.session['name'] = username
+        user = User.objects.filter(name=username).first()
 
     if not user:
         user = User()
-        user.name = request.POST['username']
+        user.name = username
         user.counter = 0
         user.save()
         request.session['name'] = user.name
