@@ -130,6 +130,11 @@ hr {
 	letter-spacing:  1px;
 }
 
+.iframe {
+    width: 100%;
+	height: 100%;
+}
+
 
 #headerwrap {
 	background: url(../imgs/thumb-1920-754564.png) no-repeat center top;
