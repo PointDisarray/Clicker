@@ -1,11 +1,11 @@
 from django.urls import path
 
-from .views import index, index2, home, congrats, videoSearchTag
+from .views import index, index2, home, easySearch, videoSearchTag
 
 urlpatterns = [
     path('welcome', index, name='index'),
     path('about', index2, name="index2"),
     path('', home, name="home"),
-    path('congrats', congrats, name="congrats"),
+    path('easySearch', easySearch, name="easySearch"),
     path('videoSearch', videoSearchTag, name="videoSearchTag"),
 ]

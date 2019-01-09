@@ -39,8 +39,8 @@ def index2(request):
     return render(request, "clickerRoot/index2.html")
 
 
-def congrats(request):
-    return render(request, "clickerRoot/congrats.html")
+def easySearch(request):
+    return render(request, "clickerRoot/easySearch.html")
 
 
 @csrf_exempt
