@@ -49,6 +49,23 @@ function newUser () {
         $("#nickname").hide();
 }
 
+function videoSearch(videoTag) {
+        $.ajax({
+            url: "/videoSearch",
+            type: "POST",
+            data: {'videoTag' : videoTag},
+            "Content-type": "application/json",
+            dataType: 'json',
+            success: function(data){
+                console.log(data["videoId"]);
+                $("iframe").attr('src', "https://www.youtube.com/embed/"+data["videoId"]+"?autoplay=1&controls=0");
+            },
+            failure: function(errMsg) {
+                alert(errMsg);
+            },
+        });
+
+}
 /*function hideCollapse() {
     $('.navbar').hideCollapse;
 }*/

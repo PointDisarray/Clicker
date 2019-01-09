@@ -1,10 +1,13 @@
 import requests
 from django.db.models import Sum
+from django.http import JsonResponse
 from django.shortcuts import render
+from django.views.decorators.csrf import csrf_exempt
+
 from .models import User
 
 YOUTUBE_KEY = 'AIzaSyBkrqNMeyqNtray64ogoHuIuBzlG5WTJKw'
-URL_YOUTUBE = "https://www.googleapis.com/youtube/v3/search?part=snippet&order=viewCount&key={}".format(YOUTUBE_KEY)
+URL_YOUTUBE = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&key={}&q=".format(YOUTUBE_KEY)
 
 
 def index(request):
@@ -28,17 +31,32 @@ def home(request):
         request.session['name'] = user.name
 
     global_counter = User.objects.all().aggregate(Sum('counter'))
-    resp = requests.get(URL_YOUTUBE)
-    video_id = resp.json()['items'][0]['id']['videoId']
-    return render(request, "clickerRoot/home.html", {'user_c': user, 'videoId': video_id, 'global_counter': global_counter['counter__sum']})
+
+    return render(request, "clickerRoot/home.html", {'user_c': user, 'global_counter': global_counter['counter__sum']})
 
 
 def index2(request):
     return render(request, "clickerRoot/index2.html")
 
+
 def congrats(request):
     return render(request, "clickerRoot/congrats.html")
 
+
+@csrf_exempt
+def videoSearchTag(request):
+    video_name = request.POST["videoTag"]
+
+    video_name = video_name.replace(" ", "%20")
+    resp = requests.get(URL_YOUTUBE + video_name)
+    try:
+        from random import randint
+        rint = randint(0, 50)
+        video_id = resp.json()['items'][rint]['id']['videoId']
+    except Exception as e:
+        video_id = resp.json()['items'][0]['id']['videoId']
+
+    return JsonResponse({'videoId': str(video_id)})
 
 # def init_socket(request):
 #     socket_server_side.run()

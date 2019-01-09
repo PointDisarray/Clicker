@@ -1,12 +1,23 @@
 {% extends 'clickerRoot/base.html' %}
 
 {% block content %}
+<script>
+
+function onKeyPress(event) {
+ 	if (event.keyCode == 13) {
+	 	videoSearch($("#inputVideoTag").val());
+    	$("iframe").show();
+    }
+}
+</script>
  <div id="headerwrap" >
 		<div class="container-fluid">
 			<div class="row center">
-				<div class="col-lg-8 col-lg-offset-2" style="margin-top:80px;">
-					<div id="videoDiv">
-						<iframe src="https://www.youtube.com/embed/{{videoId}}?autoplay=1&controls=0" frameborder="0">
+				<h3 id ="searV">Easy random video search</h3>
+				<div class="col-lg-8 col-lg-offset-2" style="margin-top:50px;">
+					<input id ="inputVideoTag" type="text" placeholder="input something..." class="form-control" onkeypress="onKeyPress(event)"/>
+					<div id="videoDiv" class="embed-responsive embed-responsive-16by9">
+						<iframe src="https://www.youtube.com/embed/{{videoId}}?autoplay=1&controls=0" frameborder="0" hidden>
 						</iframe>
 					</div>
 				</div>
