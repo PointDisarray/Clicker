@@ -23,7 +23,7 @@
 				</button>
 				{% if request.path == "/welcome" or request.path == "/logout" %}
 				        <a class="navbar-brand">C<i class="fa fa-circle"></i>UNTER</a>
-				{% elif request.path == "/" and 'name' in request.session %}
+				{% elif 'name' in request.session %}
 						<a class="navbar-brand" href="/">H<i class="fa fa-circle"></i>ME</a>
 				{% else %}
 				        <a class="navbar-brand" href="/">C<i class="fa fa-circle"></i>UNTER</a>
@@ -31,7 +31,7 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-					{% if request.path == "/" %}
+					{% if request.path == "/" and 'name' in request.session %}
 						<li class="active"><a href="logout">Logout</a></li>
 						<li><a href="easySearch">Easy search</a></li>
 					{% else %}

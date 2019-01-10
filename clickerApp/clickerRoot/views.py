@@ -61,11 +61,14 @@ def videoSearchTag(request):
 
     video_name = video_name.replace(" ", "%20")
     resp = requests.get(URL_YOUTUBE + video_name)
-    try:
-        from random import randint
-        rint = randint(0, 50)
-        video_id = resp.json()['items'][rint]['id']['videoId']
-    except Exception as e:
+    if request.POST["random"] == 'true':
+        try:
+            from random import randint
+            rint = randint(0, 50)
+            video_id = resp.json()['items'][rint]['id']['videoId']
+        except Exception as e:
+            video_id = resp.json()['items'][0]['id']['videoId']
+    else:
         video_id = resp.json()['items'][0]['id']['videoId']
 
     return JsonResponse({'videoId': str(video_id)})

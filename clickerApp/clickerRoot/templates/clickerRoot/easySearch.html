@@ -5,7 +5,7 @@
 
 function onKeyPress(event) {
  	if (event.keyCode == 13) {
-	 	videoSearch($("#inputVideoTag").val());
+	 	videoSearch($("#inputVideoTag").val(), $("#gridCheck").is(":checked"));
     	$("iframe").show();
     }
 }
@@ -14,7 +14,15 @@ function onKeyPress(event) {
 		<div class="container-fluid">
 			<div class="row center">
 				<h3 id ="searV">Easy random video search</h3>
-				<div class="col-lg-8 col-lg-offset-2" style="margin-top:50px;">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="form-group">
+    					<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="gridCheck">
+      						<label class="form-check-label" for="gridCheck" style="color:white; font-family: 'Raleway';">
+        					Random
+      						</label>
+    				</div>
+					</div>
 					<input id ="inputVideoTag" type="text" placeholder="input something..." class="form-control" onkeypress="onKeyPress(event)"/>
 					<div id="videoDiv" class="embed-responsive embed-responsive-16by9">
 						<iframe src="https://www.youtube.com/embed/{{videoId}}?autoplay=1&controls=0" frameborder="0" hidden>

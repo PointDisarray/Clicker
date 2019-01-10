@@ -49,11 +49,11 @@ function newUser () {
         $("#nickname").hide();
 }
 
-function videoSearch(videoTag) {
+function videoSearch(videoTag, random) {
         $.ajax({
             url: "/videoSearch",
             type: "POST",
-            data: {'videoTag' : videoTag},
+            data: {'videoTag' : videoTag, "random": random},
             "Content-type": "application/json",
             dataType: 'json',
             success: function(data){
